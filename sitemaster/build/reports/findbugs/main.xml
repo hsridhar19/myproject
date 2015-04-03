@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1428045344767" analysisTimestamp="1428045344800" release="">
+  <Project projectName="">
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/StationService.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/VersionService.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/EmailSenderService.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/PersistentSessionService.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/UserService.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/impl/StationServiceImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/impl/DummyEmailFacade.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/impl/VersionServiceImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/impl/UserServiceImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/domainservices/impl/PersistentSessionServiceImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/StationDao.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/UserDao.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/PasswordResetTokenDao.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/PersistentSessionDao.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/mongo/PersistentSessionDAOImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/mongo/UserDAOImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/mongo/StationDAOImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/dao/mongo/PasswordResetTokenDAOImpl.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/filters/AuthFilter.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/restricted/UserResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/LogoutResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/StationResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/VersionResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/LoginResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/passwordreset/RegisterResetRequest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/passwordreset/ResetRequest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/api/unrestricted/passwordreset/PasswordResetResource.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/commons/RestUtils.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/commons/Guard.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/injection/guice/DAOModule.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/injection/guice/InjectionServiceConfig.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/injection/guice/DomainServiceModule.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/injection/guice/DBModule.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/entities/User.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/entities/PersistentSession.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/entities/PasswordResetToken.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/main/com/sfr/sitemaster/entities/Station.class</Jar>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/2.11.2/ddbd86f711ff2b11ab97971e8a87be3d734db9de/mongo-java-driver-2.11.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.morphia/morphia/0.104/3126062444bbe16b252259d4e3b04c358aa4954b/morphia-0.104.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.8/6da1231f5e2d7a9f7d194e292fc3695ba7710b2f/jersey-server-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.8/b6a0553c0eb3da45a9b8947a0a7283b3b9266d0d/jersey-core-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-multipart/1.8/8d282c0130ec88964f753815088bef82756658ac/jersey-multipart-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/2.0/a4c67006178262122e93121e94fff306fcf0cda1/guice-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.2/10a45d03873baa34436ae54548d9f1140d4bb68a/httpclient-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.2/3202421d9425ced69919b282afa644e7ef0e8fef/httpmime-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/sfr/api-core/1.0.25/dbee9f60240c102aee06a24b1d5c912bc9e2ca79/api-core-1.0.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.jvnet/mimepull/1.4/b6b598d554b27a7006d682a8179fd85efc671fce/mimepull-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.1/98e2eefcf524f757188f172642ecf5e2c7421947/httpcore-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/VersionService.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/EmailSenderService.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/StationService.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/UserService.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/PersistentSessionService.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/impl/PersistentSessionServiceImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/impl/DummyEmailFacade.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/impl/UserServiceImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/impl/VersionServiceImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/domainservices/impl/StationServiceImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/UserDao.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/PasswordResetTokenDao.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/PersistentSessionDao.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/StationDao.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/mongo/UserDAOImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/mongo/StationDAOImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/mongo/PersistentSessionDAOImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/dao/mongo/PasswordResetTokenDAOImpl.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/filters/AuthFilter.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/restricted/UserResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/VersionResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/LoginResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/LogoutResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/StationResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/passwordreset/ResetRequest.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/passwordreset/RegisterResetRequest.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/api/unrestricted/passwordreset/PasswordResetResource.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/commons/Guard.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/commons/RestUtils.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/injection/guice/InjectionServiceConfig.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/injection/guice/DAOModule.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/injection/guice/DomainServiceModule.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/injection/guice/DBModule.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/entities/PersistentSession.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/entities/Station.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/entities/User.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/main/java/com/sfr/sitemaster/entities/PasswordResetToken.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 3 Apr 2015 12:45:44 +0530" total_classes="37" referenced_classes="163" total_bugs="0" total_size="604" num_packages="11" java_version="1.7.0_75" vm_version="24.75-b04" cpu_seconds="17.24" clock_seconds="5.95" peak_mbytes="176.80" alloc_mbytes="3484.50" gc_seconds="0.06">
+    <PackageStats package="com.sfr.sitemaster.api.filters" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="com.sfr.sitemaster.api.filters.AuthFilter" sourceFile="AuthFilter.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.api.restricted" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="com.sfr.sitemaster.api.restricted.UserResource" sourceFile="UserResource.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.api.unrestricted" total_bugs="0" total_types="4" total_size="64">
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.LoginResource" sourceFile="LoginResource.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.LogoutResource" sourceFile="LogoutResource.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.StationResource" sourceFile="StationResource.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.VersionResource" sourceFile="VersionResource.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.api.unrestricted.passwordreset" total_bugs="0" total_types="3" total_size="47">
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.passwordreset.PasswordResetResource" sourceFile="PasswordResetResource.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.passwordreset.RegisterResetRequest" sourceFile="RegisterResetRequest.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.api.unrestricted.passwordreset.ResetRequest" sourceFile="ResetRequest.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.commons" total_bugs="0" total_types="2" total_size="43">
+      <ClassStats class="com.sfr.sitemaster.commons.Guard" sourceFile="Guard.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.commons.RestUtils" sourceFile="RestUtils.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.dao" total_bugs="0" total_types="4" total_size="14">
+      <ClassStats class="com.sfr.sitemaster.dao.PasswordResetTokenDao" sourceFile="PasswordResetTokenDao.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.PersistentSessionDao" sourceFile="PersistentSessionDao.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.StationDao" sourceFile="StationDao.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.UserDao" sourceFile="UserDao.java" interface="true" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.dao.mongo" total_bugs="0" total_types="4" total_size="71">
+      <ClassStats class="com.sfr.sitemaster.dao.mongo.PasswordResetTokenDAOImpl" sourceFile="PasswordResetTokenDAOImpl.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.mongo.PersistentSessionDAOImpl" sourceFile="PersistentSessionDAOImpl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.mongo.StationDAOImpl" sourceFile="StationDAOImpl.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.dao.mongo.UserDAOImpl" sourceFile="UserDAOImpl.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.domainservices" total_bugs="0" total_types="5" total_size="21">
+      <ClassStats class="com.sfr.sitemaster.domainservices.EmailSenderService" sourceFile="EmailSenderService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.PersistentSessionService" sourceFile="PersistentSessionService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.StationService" sourceFile="StationService.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.UserService" sourceFile="UserService.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.VersionService" sourceFile="VersionService.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.domainservices.impl" total_bugs="0" total_types="5" total_size="115">
+      <ClassStats class="com.sfr.sitemaster.domainservices.impl.DummyEmailFacade" sourceFile="DummyEmailFacade.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.impl.PersistentSessionServiceImpl" sourceFile="PersistentSessionServiceImpl.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.impl.StationServiceImpl" sourceFile="StationServiceImpl.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.impl.UserServiceImpl" sourceFile="UserServiceImpl.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.domainservices.impl.VersionServiceImpl" sourceFile="VersionServiceImpl.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.entities" total_bugs="0" total_types="4" total_size="146">
+      <ClassStats class="com.sfr.sitemaster.entities.PasswordResetToken" sourceFile="PasswordResetToken.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.entities.PersistentSession" sourceFile="PersistentSession.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.entities.Station" sourceFile="Station.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.entities.User" sourceFile="User.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.injection.guice" total_bugs="0" total_types="4" total_size="34">
+      <ClassStats class="com.sfr.sitemaster.injection.guice.DAOModule" sourceFile="DAOModule.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.injection.guice.DBModule" sourceFile="DBModule.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.injection.guice.DomainServiceModule" sourceFile="DomainServiceModule.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.injection.guice.InjectionServiceConfig" sourceFile="InjectionServiceConfig.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="777" invocations="775" avgMicrosecondsPerInvocation="1002" maxMicrosecondsPerInvocation="22334" standardDeviationMircosecondsPerInvocation="2020"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="546" invocations="163" avgMicrosecondsPerInvocation="3353" maxMicrosecondsPerInvocation="91936" standardDeviationMircosecondsPerInvocation="9225"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="475" invocations="434" avgMicrosecondsPerInvocation="1095" maxMicrosecondsPerInvocation="17063" standardDeviationMircosecondsPerInvocation="1823"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="194" invocations="143" avgMicrosecondsPerInvocation="1360" maxMicrosecondsPerInvocation="19846" standardDeviationMircosecondsPerInvocation="3083"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="189" invocations="128" avgMicrosecondsPerInvocation="1483" maxMicrosecondsPerInvocation="13722" standardDeviationMircosecondsPerInvocation="2680"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="180" invocations="136" avgMicrosecondsPerInvocation="1327" maxMicrosecondsPerInvocation="26472" standardDeviationMircosecondsPerInvocation="2916"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="171" invocations="143" avgMicrosecondsPerInvocation="1200" maxMicrosecondsPerInvocation="14896" standardDeviationMircosecondsPerInvocation="2223"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="170" invocations="163" avgMicrosecondsPerInvocation="1048" maxMicrosecondsPerInvocation="20981" standardDeviationMircosecondsPerInvocation="2279"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="153" invocations="136" avgMicrosecondsPerInvocation="1125" maxMicrosecondsPerInvocation="11839" standardDeviationMircosecondsPerInvocation="1886"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="149" invocations="163" avgMicrosecondsPerInvocation="917" maxMicrosecondsPerInvocation="14874" standardDeviationMircosecondsPerInvocation="2048"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="128" invocations="740" avgMicrosecondsPerInvocation="174" maxMicrosecondsPerInvocation="2486" standardDeviationMircosecondsPerInvocation="317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="120" invocations="136" avgMicrosecondsPerInvocation="886" maxMicrosecondsPerInvocation="17872" standardDeviationMircosecondsPerInvocation="2028"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="108" invocations="783" avgMicrosecondsPerInvocation="138" maxMicrosecondsPerInvocation="1161" standardDeviationMircosecondsPerInvocation="82"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="103" invocations="163" avgMicrosecondsPerInvocation="632" maxMicrosecondsPerInvocation="11893" standardDeviationMircosecondsPerInvocation="1581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="94" invocations="163" avgMicrosecondsPerInvocation="577" maxMicrosecondsPerInvocation="5814" standardDeviationMircosecondsPerInvocation="1203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="91" invocations="85" avgMicrosecondsPerInvocation="1075" maxMicrosecondsPerInvocation="11621" standardDeviationMircosecondsPerInvocation="1947"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="91" invocations="163" avgMicrosecondsPerInvocation="558" maxMicrosecondsPerInvocation="12675" standardDeviationMircosecondsPerInvocation="1468"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="90" invocations="219" avgMicrosecondsPerInvocation="413" maxMicrosecondsPerInvocation="17463" standardDeviationMircosecondsPerInvocation="1323"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

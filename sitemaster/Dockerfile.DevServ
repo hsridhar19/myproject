@@ -1,0 +1,22 @@
+# Yves Hwang
+# 02.11.2014
+#
+# USAGE
+#
+# sudo docker build -t sfr:engage_dev .
+# sudo docker run -t -i --name engagedev --volume <localdir>:/workspace:rw sfr:engage_dev
+# note that the user "sfr" is created to illustrate that runtime credential
+
+FROM tuxbear/mongojetty
+MAINTAINER ole@nisau.no
+
+EXPOSE 8080
+
+# Add war file to image
+ADD sitemaster.war /opt/jetty/webapps/root.war
+
+# Startup script
+ADD deploy-and-run.sh /opt/jetty/bin/
+RUN chmod a+x /opt/jetty/bin/deploy-and-run.sh
+
+CMD /opt/jetty/bin/deploy-and-run.sh

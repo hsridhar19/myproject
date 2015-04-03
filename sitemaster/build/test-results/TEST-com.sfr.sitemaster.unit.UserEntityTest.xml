@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sfr.sitemaster.unit.UserEntityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-04-03T07:16:00" hostname="infba06633" time="0.021">
+  <properties/>
+  <testcase name="merge_null_fields" classname="com.sfr.sitemaster.unit.UserEntityTest" time="0.007"/>
+  <testcase name="printModelSchema" classname="com.sfr.sitemaster.unit.UserEntityTest" time="0.011"/>
+  <testcase name="merge_successful" classname="com.sfr.sitemaster.unit.UserEntityTest" time="0.002"/>
+  <system-out><![CDATA[{"users":{"timestamp":{"no_merge":true,"$date":"long"},"_id":{"$oid":"string","no_merge":true},"created":{"no_merge":true,"$date":"long"},"email":{"no_merge":true,"null_allowed":false,"type":"string"},"name":{"type":"string"},"password":{"no_merge":true,"null_allowed":false,"type":"string"},"salt":{"no_merge":true,"null_allowed":false,"type":"string"}}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

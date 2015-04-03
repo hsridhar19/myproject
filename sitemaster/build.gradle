@@ -1,0 +1,211 @@
+/**
+ * Copyright (c) 2015 Statoil Fuel & Retail ASA
+ * All rights reserved.
+ *
+ * This code is proprietary and the property of Statoil Fuel & Retail ASA. It may not be
+ * distributed without written permission from Statoil Fuel & Retail ASA.
+*/
+group = 'sfr'
+version = new ProjectVersion(1, 0, System.env.BUILD_NUMBER) // BUILD_NUMBER should be set by an build environment, e.g. Jenkins
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.akhikhl.gretty:gretty:1.0.0'
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+     maven {
+        credentials {
+            username 'botenannasfr'
+            password '8f57fc4c2c2e44f2080ffae1771a288e2ed762ac'
+        }
+        url 'http://dl.bintray.com/statoilfuelretail/maven/'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'eclipse'
+apply plugin: 'findbugs'
+apply plugin: 'sonar-runner'
+
+dependencies {
+    compile 'org.mongodb:mongo-java-driver:2.11.2'
+    compile 'com.google.code.morphia:morphia:0.104'
+    compile 'javax.servlet:javax.servlet-api:3.0.1'
+    compile 'com.sun.jersey:jersey-server:1.8'
+    compile 'com.sun.jersey:jersey-core:1.8'
+    compile 'com.sun.jersey.contribs:jersey-multipart:1.8'
+    compile 'org.json:json:20140107'
+    compile 'com.google.inject:guice:2.0'
+    compile 'org.mongodb:mongo-java-driver:2.11.2'
+    compile 'com.google.code.morphia:morphia:0.104'
+    compile 'org.apache.httpcomponents:httpclient:4.3.2'
+    compile 'org.apache.httpcomponents:httpmime:4.3.2'
+    compile 'commons-codec:commons-codec:1.9'
+    compile 'org.apache.commons:commons-lang3:3.1'
+    compile 'log4j:log4j:1.2.17'
+    compile 'com.google.code.gson:gson:1.7.2'
+
+    compile 'sfr:api-core:1.0.25'
+
+    runtime 'org.mongodb:mongo-java-driver:2.11.2'
+    runtime 'com.google.code.morphia:morphia:0.104'
+    runtime 'javax.servlet:javax.servlet-api:3.0.1'
+    runtime 'com.sun.jersey:jersey-server:1.8'
+    runtime 'com.sun.jersey:jersey-core:1.8'
+    runtime 'com.sun.jersey.contribs:jersey-multipart:1.8'
+    runtime 'org.json:json:20140107'
+    runtime 'com.google.inject:guice:2.0'
+    runtime 'org.mongodb:mongo-java-driver:2.11.2'
+    runtime 'com.google.code.morphia:morphia:0.104'
+    runtime 'org.apache.httpcomponents:httpclient:4.3.2'
+    runtime 'org.apache.httpcomponents:httpmime:4.3.2'
+    runtime 'commons-codec:commons-codec:1.9'
+    runtime 'org.apache.commons:commons-lang3:3.1'
+    runtime 'log4j:log4j:1.2.17'
+    runtime 'com.google.code.gson:gson:1.7.2'
+    runtime 'sfr:api-core:1.0.25'
+
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.mockito:mockito-all:1.10.8'
+    testCompile 'net.jodah:typetools:0.3.1'
+
+    testRuntime 'junit:junit:4.11'
+    testRuntime 'org.mockito:mockito-all:1.10.8'
+    testRuntime 'net.jodah:typetools:0.3.1'
+}
+
+compileJava {
+    options.fork = false
+    options.encoding = 'UTF-8'
+    options.compilerArgs << "-Xlint:all" << "-Werror"
+    sourceCompatibility = '1.7'
+    targetCompatibility = '1.7'
+}
+task javaSettings << {task -> 
+    println "$task.project.name" 
+    println "fork=$task.project.compileJava.options.fork"
+    println "encoding=$task.project.compileJava.options.encoding"
+    println "source=$task.project.compileJava.sourceCompatibility"
+    println "target=$task.project.compileJava.targetCompatibility"
+}
+
+processResources{
+    filesMatching("**/*.properties") {
+        expand(
+                app_version: project.version.toString(),
+                api_version: project.version.major.toString(),
+                app_name: project.name,
+                app_timestamp: new Date()
+        )
+    }
+}
+
+test {
+    include 'com/sfr/**/unit/**/*Test.class'
+    include 'com/sfr/**/unit/**/*Tests.class'
+    exclude '**/*BaseTests.class'
+    exclude '**/*BaseTest.class'
+    exclude '**/*TestBase.class'
+    testLogging {
+        exceptionFormat = 'full'
+    }
+}
+
+task integrationTest(type:Test, dependsOn:testClasses) {
+    include 'com/sfr/**/integration/**/*Test.class'
+    include 'com/sfr/**/integration/**/*Tests.class'
+    exclude '**/*BaseTests.class'
+    exclude '**/*BaseTest.class'
+    exclude '**/*TestBase.class'
+
+    exclude '**/http/*.*'
+
+    beforeSuite { descriptor ->
+        println "integration test can be configured as such:"
+        println "gradle integrationTest -Dcom.sfr.mongo.host=localhost -Dcom.sfr.mongo.port=27017 -Dcom.sfr.mongo.db=api-core-testdb"
+        //check and set the JVM options
+        if( System.properties['com.sfr.mongo.host'] != null ) {
+            systemProperties['com.sfr.mongo.host'] = System.properties['com.sfr.mongo.host']
+        }
+        if( System.properties['com.sfr.mongo.port'] != null ) {
+            systemProperties['com.sfr.mongo.port'] = System.properties['com.sfr.mongo.port']
+        }
+        if( System.properties['com.sfr.mongo.db'] != null ) {
+            systemProperties['com.sfr.mongo.db'] = System.properties['com.sfr.mongo.db']
+        }
+    }
+    testLogging {
+        exceptionFormat = 'full'
+    }
+}
+
+classes.dependsOn javaSettings
+
+configurations {
+    jaxDoclet
+}
+task generateRestApiDocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+    destinationDir = reporting.file("rest-api-docs")
+}
+
+
+gretty {
+    integrationTestTask = 'integrationTest' // name of existing gradle task
+    port = 8888
+    contextPath = '/'
+    // available servlet container, jetty7, jetty8, jetty9, tomcat7, tomcat8
+    servletContainer = 'jetty8'
+    //check and set the JVM options
+    managedClassReload = true
+    scanInterval = 1
+    jvmArgs = ['-Djava.net.preferIPv4Stack=true']
+
+    if( System.properties['com.sfr.mongo.db'] != null ) {
+        jvmArgs.add('-Dcom.sfr.mongo.db=' + System.properties['com.sfr.mongo.db'])
+    } else {
+        jvmArgs.add('-Dcom.sfr.mongo.db=api-core-testdb')
+    }
+
+}
+
+war {
+    excludes = ['.gradle/', 'dist/', 'app/']
+}
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+
+class ProjectVersion {
+    Integer major
+    Integer minor
+    String build
+
+    ProjectVersion(Integer major, Integer minor, String build) {
+        this.major = major;
+        this.minor = minor
+        this.build = build
+    }
+
+    @Override
+    String toString() {
+        String fullVersion = "$major.$minor";
+        fullVersion += build ? ".$build" : ".0-DEVELOPMENT"
+        fullVersion
+    }
+}

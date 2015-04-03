@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sfr.sitemaster.unit.domainservices.UserServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-04-03T07:16:01" hostname="infba06633" time="0.031">
+  <properties/>
+  <testcase name="userNotFoundYieldsCorrectException" classname="com.sfr.sitemaster.unit.domainservices.UserServiceTests" time="0.019"/>
+  <testcase name="nullUserFails" classname="com.sfr.sitemaster.unit.domainservices.UserServiceTests" time="0.0"/>
+  <testcase name="when_requestToken_remove_old_tokens" classname="com.sfr.sitemaster.unit.domainservices.UserServiceTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

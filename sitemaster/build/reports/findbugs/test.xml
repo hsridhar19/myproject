@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1428045354064" analysisTimestamp="1428045354086" release="">
+  <Project projectName="">
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/unit/UnitTestBase.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/unit/UserEntityTest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/unit/EntityUnitTestBase.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/unit/domainservices/UserServiceTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/shared/TestBase.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/shared/TestDBModule.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/IntegrationTestBase.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/http/LoginTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/http/SanityTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/http/UserTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/http/LogoutTest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/http/PasswordResetTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/domainservices/PasswordResetTokenDAOTest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/db/domainservices/UserServiceIntegrationTests.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/db/dao/DaoTestBase.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/db/dao/UserDaoTest.class</Jar>
+    <Jar>/home/user/Public/Git-Repo/siterumasteru/build/classes/test/com/sfr/sitemaster/integration/db/dao/PersistentSessionDaoTests.class</Jar>
+    <AuxClasspathEntry>/home/user/Public/Git-Repo/siterumasteru/build/classes/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/Public/Git-Repo/siterumasteru/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/2.11.2/ddbd86f711ff2b11ab97971e8a87be3d734db9de/mongo-java-driver-2.11.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.morphia/morphia/0.104/3126062444bbe16b252259d4e3b04c358aa4954b/morphia-0.104.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.8/6da1231f5e2d7a9f7d194e292fc3695ba7710b2f/jersey-server-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.8/b6a0553c0eb3da45a9b8947a0a7283b3b9266d0d/jersey-core-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-multipart/1.8/8d282c0130ec88964f753815088bef82756658ac/jersey-multipart-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/2.0/a4c67006178262122e93121e94fff306fcf0cda1/guice-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.2/10a45d03873baa34436ae54548d9f1140d4bb68a/httpclient-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.2/3202421d9425ced69919b282afa644e7ef0e8fef/httpmime-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/sfr/api-core/1.0.25/dbee9f60240c102aee06a24b1d5c912bc9e2ca79/api-core-1.0.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.10.8/290232467869e43983cb6f269268aea2920c21b8/mockito-all-1.10.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.3.1/2bd4ed2bd30340443b2c95e67ac2c7471b2ddacb/typetools-0.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.jvnet/mimepull/1.4/b6b598d554b27a7006d682a8179fd85efc671fce/mimepull-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.1/98e2eefcf524f757188f172642ecf5e2c7421947/httpcore-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/user/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/unit/UserEntityTest.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/unit/EntityUnitTestBase.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/unit/UnitTestBase.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/unit/domainservices/UserServiceTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/shared/TestBase.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/shared/TestDBModule.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/IntegrationTestBase.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/http/UserTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/http/SanityTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/http/LoginTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/http/LogoutTest.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/http/PasswordResetTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/domainservices/PasswordResetTokenDAOTest.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/db/domainservices/UserServiceIntegrationTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/db/dao/DaoTestBase.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/db/dao/PersistentSessionDaoTests.java</SrcDir>
+    <SrcDir>/home/user/Public/Git-Repo/siterumasteru/src/test/java/com/sfr/sitemaster/integration/db/dao/UserDaoTest.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 3 Apr 2015 12:45:54 +0530" total_classes="17" referenced_classes="101" total_bugs="0" total_size="768" num_packages="8" java_version="1.7.0_75" vm_version="24.75-b04" cpu_seconds="16.30" clock_seconds="5.81" peak_mbytes="114.77" alloc_mbytes="3484.50" gc_seconds="0.09">
+    <PackageStats package="com.sfr.sitemaster.integration" total_bugs="0" total_types="1" total_size="34">
+      <ClassStats class="com.sfr.sitemaster.integration.IntegrationTestBase" sourceFile="IntegrationTestBase.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.integration.db.dao" total_bugs="0" total_types="3" total_size="322">
+      <ClassStats class="com.sfr.sitemaster.integration.db.dao.DaoTestBase" sourceFile="DaoTestBase.java" interface="false" size="234" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.db.dao.PersistentSessionDaoTests" sourceFile="PersistentSessionDaoTests.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.db.dao.UserDaoTest" sourceFile="UserDaoTest.java" interface="false" size="45" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.integration.db.domainservices" total_bugs="0" total_types="1" total_size="56">
+      <ClassStats class="com.sfr.sitemaster.integration.db.domainservices.UserServiceIntegrationTests" sourceFile="UserServiceIntegrationTests.java" interface="false" size="56" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.integration.domainservices" total_bugs="0" total_types="1" total_size="77">
+      <ClassStats class="com.sfr.sitemaster.integration.domainservices.PasswordResetTokenDAOTest" sourceFile="PasswordResetTokenDAOTest.java" interface="false" size="77" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.integration.http" total_bugs="0" total_types="5" total_size="171">
+      <ClassStats class="com.sfr.sitemaster.integration.http.LoginTests" sourceFile="LoginTests.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.http.LogoutTest" sourceFile="LogoutTest.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.http.PasswordResetTests" sourceFile="PasswordResetTests.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.http.SanityTests" sourceFile="SanityTests.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.integration.http.UserTests" sourceFile="UserTests.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.shared" total_bugs="0" total_types="2" total_size="11">
+      <ClassStats class="com.sfr.sitemaster.shared.TestBase" sourceFile="TestBase.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.shared.TestDBModule" sourceFile="TestDBModule.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.unit" total_bugs="0" total_types="3" total_size="73">
+      <ClassStats class="com.sfr.sitemaster.unit.EntityUnitTestBase" sourceFile="EntityUnitTestBase.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.unit.UnitTestBase" sourceFile="UnitTestBase.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.sfr.sitemaster.unit.UserEntityTest" sourceFile="UserEntityTest.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.sfr.sitemaster.unit.domainservices" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="com.sfr.sitemaster.unit.domainservices.UserServiceTests" sourceFile="UserServiceTests.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="768" invocations="727" avgMicrosecondsPerInvocation="1056" maxMicrosecondsPerInvocation="31454" standardDeviationMircosecondsPerInvocation="2598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="401" invocations="101" avgMicrosecondsPerInvocation="3972" maxMicrosecondsPerInvocation="30934" standardDeviationMircosecondsPerInvocation="6974"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="280" invocations="133" avgMicrosecondsPerInvocation="2107" maxMicrosecondsPerInvocation="14385" standardDeviationMircosecondsPerInvocation="2833"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="259" invocations="150" avgMicrosecondsPerInvocation="1731" maxMicrosecondsPerInvocation="28137" standardDeviationMircosecondsPerInvocation="3091"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="251" invocations="731" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="12500" standardDeviationMircosecondsPerInvocation="640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="243" invocations="278" avgMicrosecondsPerInvocation="874" maxMicrosecondsPerInvocation="17149" standardDeviationMircosecondsPerInvocation="1799"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="230" invocations="136" avgMicrosecondsPerInvocation="1694" maxMicrosecondsPerInvocation="12864" standardDeviationMircosecondsPerInvocation="2314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="197" invocations="136" avgMicrosecondsPerInvocation="1452" maxMicrosecondsPerInvocation="12378" standardDeviationMircosecondsPerInvocation="1901"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="196" invocations="137" avgMicrosecondsPerInvocation="1432" maxMicrosecondsPerInvocation="15306" standardDeviationMircosecondsPerInvocation="2081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="146" invocations="136" avgMicrosecondsPerInvocation="1079" maxMicrosecondsPerInvocation="17130" standardDeviationMircosecondsPerInvocation="1766"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="124" invocations="692" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="3224" standardDeviationMircosecondsPerInvocation="361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="120" invocations="104" avgMicrosecondsPerInvocation="1160" maxMicrosecondsPerInvocation="5455" standardDeviationMircosecondsPerInvocation="1215"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="114" invocations="145" avgMicrosecondsPerInvocation="791" maxMicrosecondsPerInvocation="14883" standardDeviationMircosecondsPerInvocation="1832"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="107" invocations="101" avgMicrosecondsPerInvocation="1062" maxMicrosecondsPerInvocation="6624" standardDeviationMircosecondsPerInvocation="1407"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="104" invocations="101" avgMicrosecondsPerInvocation="1037" maxMicrosecondsPerInvocation="21493" standardDeviationMircosecondsPerInvocation="2557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="90" invocations="148" avgMicrosecondsPerInvocation="611" maxMicrosecondsPerInvocation="64889" standardDeviationMircosecondsPerInvocation="5312"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="86" invocations="101" avgMicrosecondsPerInvocation="857" maxMicrosecondsPerInvocation="13696" standardDeviationMircosecondsPerInvocation="1838"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="79" invocations="101" avgMicrosecondsPerInvocation="788" maxMicrosecondsPerInvocation="9932" standardDeviationMircosecondsPerInvocation="1358"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

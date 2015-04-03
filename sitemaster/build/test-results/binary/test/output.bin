@@ -1,0 +1,1 @@
+ä{"users":{"timestamp":{"no_merge":true,"$date":"long"},"_id":{"$oid":"string","no_merge":true},"created":{"no_merge":true,"$date":"long"},"email":{"no_merge":true,"null_allowed":false,"type":"string"},"name":{"type":"string"},"password":{"no_merge":true,"null_allowed":false,"type":"string"},"salt":{"no_merge":true,"null_allowed":false,"type":"string"}}}
