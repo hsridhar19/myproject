@@ -15,14 +15,15 @@ import com.sfr.sitemaster.entities.Station;
 
 public interface StationService {
 
-	 void createNewStation(String stationID, String stationLocation, String stationName) throws DBException;
-	 
-	 void updateExistingStation(String stationID) throws DBException;
-	 
-	 void removeExistingStation(String stationID) throws DBException;
-	 
-	 List<Station> listAllExistingStations() throws DBException;
-	 
-	 Station findExistingStationFromID(String stationID) throws DBException;
-	
+	void createNewStation(String stationID, String stationLocation,
+			String stationName) throws DBException;
+
+	void updateExistingStation(String stationID, String sname, String sloc) throws DBException;
+
+	void removeExistingStation(String stationID) throws DBException;
+
+	List<Station> listAllExistingStations() throws DBException;
+
+	Station findExistingStationFromID(String stationID) throws DBException;
+
 }

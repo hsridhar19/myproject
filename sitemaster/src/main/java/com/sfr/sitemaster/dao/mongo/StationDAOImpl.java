@@ -21,44 +21,57 @@ import com.sfr.sitemaster.entities.Station;
 public class StationDAOImpl extends BaseMongoDao<Station> implements StationDao {
 
 	@Inject
-	public StationDAOImpl(final Mongo mongo, final Morphia morphia, final @DBName String dbName) {
+	public StationDAOImpl(final Mongo mongo, final Morphia morphia,
+			final @DBName String dbName) {
 		super(Station.class, mongo, morphia, dbName);
 	}
-    
-	@Override
-	public void updateStation(String stationID) throws DBException {
-		// TODO Auto-generated method stub
 
+	@Override
+	public void createStation(Station station) {
+		try {
+			save(station);
+		} catch (DBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
 	public void removeStation(String stationID) throws DBException {
-		// TODO Auto-generated method stub
+		remove("sid", stationID);
+	}
 
+	@Override
+	public void updateStation(Station station) throws DBException {
+		try {
+			save(station);
+		} catch (DBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
 	public List<Station> listAllStations() throws DBException {
-		// TODO Auto-generated method stub
-		return null;
+		
+			return findAll();	
 	}
 
 	@Override
 	public Station findStationFromID(String stationID) throws DBException {
-		// TODO Auto-generated method stub
-		return null;
+	
+		return findOneBasedOnField("sid", stationID, true);
 	}
 
 	@Override
 	protected void saveEagerRelations(Station paramT) throws DBException {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	protected void removeEagerRelations(Station paramT) throws DBException {
 		// TODO Auto-generated method stub
-		
-	}
 
+	}
 }

@@ -16,7 +16,7 @@ import com.sfr.sitemaster.entities.Station;
  *
  */
 
-public class StationServiceImpl implements StationService{
+public class StationServiceImpl implements StationService {
 
 	private final StationDao stationDao;
 
@@ -28,35 +28,54 @@ public class StationServiceImpl implements StationService{
 	@Override
 	public void createNewStation(String stationID, String stationLocation,
 			String stationName) throws DBException {
-		final Station newStation = new Station(); 
+		
+		final Station newStation = new Station();
+		
 		newStation.setStationID(stationID);
 		newStation.setStationLocation(stationLocation);
 		newStation.setStationName(stationName);
-		stationDao.save(newStation);
-	}
-
-	@Override
-	public void updateExistingStation(String stationID) {
-		// TODO Auto-generated method stub
-
+		stationDao.createStation(newStation);
 	}
 
 	@Override
 	public void removeExistingStation(String stationID) {
-		// TODO Auto-generated method stub
-
+		try {
+			stationDao.removeStation(stationID);
+		} catch (DBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
-	public List<Station> listAllExistingStations() throws DBException {
-		// TODO Auto-generated method stub
-		return null;
+	public void updateExistingStation(String stationID, String sname,
+			String sloc) throws DBException {
+		
+		final Station newStation = new Station();
+		
+		newStation.setStationID(stationID);
+		newStation.setStationLocation(sloc);
+		newStation.setStationName(sname);
+		
+		stationDao.updateStation(newStation);
 	}
 
 	@Override
 	public Station findExistingStationFromID(String stationID) {
-		// TODO Auto-generated method stub
-		return null;
+		Station station = null;
+		try {
+			station = stationDao.findStationFromID(stationID);
+		} catch (DBException e) {
+			e.printStackTrace();
+		}
+		
+		return station;
 	}
 
+	@Override
+	public List<Station> listAllExistingStations() throws DBException {
+		List<Station> listOfAllStations = null;
+		listOfAllStations =	stationDao.listAllStations();
+		return listOfAllStations;
+	}
 }
